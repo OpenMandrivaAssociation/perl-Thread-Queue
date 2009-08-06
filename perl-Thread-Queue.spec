@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 1
+Release:    %mkrel 2
 
 Summary:    Thread-safe queues
 License:    GPL+ or Artistic
@@ -15,6 +15,7 @@ BuildRequires: perl(Scalar::Util)
 BuildRequires: perl(Test::More)
 BuildRequires: perl(Thread::Semaphore)
 BuildRequires: perl(threads::shared)
+Provides: perl(Thread::Queue) = %perl_convert_version %{upstream_version}
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
 
