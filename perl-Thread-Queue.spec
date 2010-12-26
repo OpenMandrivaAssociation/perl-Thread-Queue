@@ -1,9 +1,9 @@
 %define upstream_name    Thread-Queue
-%define upstream_version 2.11
+%define upstream_version 2.12
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 Summary:    Thread-safe queues
 License:    GPL+ or Artistic
