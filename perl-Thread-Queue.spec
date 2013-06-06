@@ -1,6 +1,5 @@
 %define upstream_name    Thread-Queue
-%define upstream_version 2.12
-
+%define upstream_version 3.02
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version 3.02
 Release:	1
