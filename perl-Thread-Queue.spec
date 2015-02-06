@@ -2,7 +2,7 @@
 %define upstream_version 3.02
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version 3.02
-Release:	2
+Release:	3
 
 Summary:	Thread-safe queues
 License:	GPL+ or Artistic
