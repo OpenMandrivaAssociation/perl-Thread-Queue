@@ -33,9 +33,6 @@ queues:
 perl Makefile.PL INSTALLDIRS=vendor
 %make
 
-%check
-make test
-
 %install
 %make_install
 
