@@ -2,7 +2,7 @@
 %define upstream_version 3.12
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	1
+Release:	2
 
 Summary:	Thread-safe queues
 License:	GPL+ or Artistic
@@ -12,7 +12,6 @@ Source0:	http://www.cpan.org/modules/by-module/Thread/Thread-Queue-%{upstream_ve
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Scalar::Util)
-BuildRequires:	perl(Test::More)
 BuildRequires:	perl(Thread::Semaphore)
 BuildRequires:	perl(threads::shared)
 BuildArch:	noarch
